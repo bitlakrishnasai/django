@@ -1,0 +1,60 @@
+
+body{
+	margin:0;
+	padding:0;
+	background: url(goldring.jpg);
+	background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+}
+.loginBox{
+    box-shadow:0 4px 8px 0 rgba(250, 190, 24, 0.418), 0 6px 20px 0 rgba(247, 229, 149, 0.19);
+	width: 280px;
+	height: 380px;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	top: 30;
+	left: 70%;
+	position: absolute;
+	transform:translate(-18%,30%);
+
+	border-radius:10px;
+	padding: 30px 20px;
+	
+}
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	font-size: 22px;
+}
+.loginBox p{
+	margin : 0;
+	padding: 0;
+	font-weight : bold;
+	
+}
+
+.loginBox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline:none;
+	height: 40px;
+	color:#fff;
+	font:18px;
+}
+.loginBox input[type="submit"], input[type="button"]{
+    border:none;
+    color: #000;
+    border-bottom: 2px solid rgba(247, 229, 149, 0.19);
+	border-radius:10px;
+	height: 25px;
+	font-weight : bold;
+	
+}
+.placeholder :-ms-input-placeholder{
+    background-color:transparent;
+
+}
