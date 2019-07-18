@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h1>Registration</h1>
+    <h1>h</h1>
+<head>
+        <style>
+                body {
+                        background-image: url("beads-1234664.jpg");
+                    } 
+                 
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registeration</title>
+</head>
+<body>
+    <form action ="register" method="POST">
+        {% csrf_token %}
+        
+        <input type = "text" name="First Name" placeholder="First Name"><br>
+        <input type = "text" name="Last Name" placeholder="Last Name"><br>
+        <input type = "email" name="user Name" placeholder="User Name"><br>
+        <input type = "password" name="Password" placeholder="Password"><br>
+        <input type = "password" name="Re-Enter Password" placeholder="Re-Enter Password"><br>
+        <input type = "text" name="Organisation" placeholder="Organisation"><br>
+        <input type="submit" >
+        
+    </form>
+</body>
+</html>
