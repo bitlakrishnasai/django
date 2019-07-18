@@ -1,0 +1,46 @@
+
+{% load static %}
+
+<!doctype html>
+<html>
+<head>
+	<title>Login form</title>
+	<link rel = "stylesheet" type = "text/css" href="static/style.css">
+</head>
+	<body>
+	<div class = "loginBox">
+		<h1> Login </h1>
+			<form>
+			<p>UserName</p>
+      <div class = "placeholder">
+          <style> 
+              ::placeholder { /* Firefox, Chrome, Opera */ 
+                  color: blue; 
+              } 
+                
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+                  color: red; 
+              } 
+                
+              ::-ms-input-placeholder { /* Microsoft Edge */ 
+                  color: orange; 
+              } </style>
+      <input type="text" placeholder="Enter UserName" required=""> <br><br>
+			</div>
+		
+			<p>Password</p>
+			<input type="password" placeholder="Enter Password"  required=""><br><br>
+			
+		
+		
+			<input type="submit" name="submit" value=" Login ">
+			</form>
+		<br>
+		<a href="test.html"><input type="button" value = " SignUp "></a>
+		<a href="test.html"><input type="button" value = " Forgot Password "></a>
+	
+	
+	</div>
+
+
+</html>
